@@ -5,7 +5,7 @@ import (
 )
 
 func Raid1a(x, y int) {
-	if x != 0 && y != 0 {
+	if x >= 0 && y >= 0 {
 		if 0 < y && y < 3 {
 			for j := 0; j < y; j++ {
 				Example(x)
