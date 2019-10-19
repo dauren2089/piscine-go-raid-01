@@ -28,33 +28,23 @@ func Raid1c(x, y int) {
 func ThirdExample(x, y int) {
 	if 0 < x && x < 3 {
 		for i := 0; i < x; i++ {
-			z01.PrintRune(67)
+			z01.PrintRune(65)
 		}
 	} else {
 
 		for i := 1; i <= x; i++ {
 			if i == 1 && i == y { ///
-				z01.PrintRune(67) // "/""
+				z01.PrintRune(65) // "/""
 			} else if i == x && i == 1 {
-				z01.PrintRune(67) // "\"
+				z01.PrintRune(65) // "\"
 			} else if i == 1 { //3
 
 				z01.PrintRune(47)
 			} else if i == x {
 				z01.PrintRune(65)
 			} else {
-				z01.PrintRune(65)
+				z01.PrintRune(66)
 			}
-
-			// if i == y {
-			// 	if i == 1 {
-			// 		z01.PrintRune(93)
-			// 	} else if i == x {
-			// 		z01.PrintRune(94)
-			// 	} else {
-
-			// 	}
-			// }
 		}
 	}
 
