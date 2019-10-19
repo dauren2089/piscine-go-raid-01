@@ -8,6 +8,7 @@ func Raid1a(x, y int) {
 	if x >= 0 && y >= 0 {
 		if 0 < y && y < 3 {
 			for j := 0; j < y; j++ {
+				z01.PrintRune(10)
 				Example(x)
 				z01.PrintRune(10)
 			}
@@ -16,7 +17,7 @@ func Raid1a(x, y int) {
 				if j == 1 || j == y {
 					Example(x)
 				} else {
-
+					z01.PrintRune(10)
 					z01.PrintRune(10)
 					CheckY(x)
 					z01.PrintRune(10)
