@@ -14,6 +14,7 @@ func Raid1a(x, y int) {
 		} else {
 			for j := 1; j <= y; j++ {
 				if j == 1 || j == y {
+					z01.PrintRune(10)
 					Example(x)
 				} else {
 					z01.PrintRune(10)
