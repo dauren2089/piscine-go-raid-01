@@ -20,9 +20,11 @@ func Raid1a(x, y int) {
 					z01.PrintRune(10)
 					CheckY(x)
 					z01.PrintRune(10)
+					z01.PrintRune(10)
 				}
 			}
 		}
+		z01.PrintRune(10)
 	}
 }
 
