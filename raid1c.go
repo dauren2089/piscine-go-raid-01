@@ -28,7 +28,7 @@ func Raid1c(x, y int) {
 func ThirdExample(x, y int) {
 	if 0 < x && x < 3 {
 		for i := 0; i < x; i++ {
-			z01.PrintRune(47)
+			z01.PrintRune(65)
 		}
 	} else {
 
