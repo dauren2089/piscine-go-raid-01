@@ -5,16 +5,18 @@ import (
 )
 
 func Raid1a(x, y int) {
-	if x >= 0 && y >= 0 {
+	if x > 0 && y > 0 {
 		if 0 < y && y < 3 {
 			for j := 0; j < y; j++ {
 				Example(x)
+				z01.PrintRune(10)
 			}
 		} else {
 			for j := 1; j <= y; j++ {
 				if j == 1 || j == y {
 					Example(x)
 				} else {
+					z01.PrintRune(10)
 					CheckY(x)
 				}
 			}
