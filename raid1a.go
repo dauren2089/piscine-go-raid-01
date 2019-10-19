@@ -16,11 +16,9 @@ func Raid1a(x, y int) {
 				if j == 1 || j == y {
 					z01.PrintRune(10)
 					Example(x)
-					z01.PrintRune(10)
 				} else {
 					z01.PrintRune(10)
 					CheckY(x)
-					z01.PrintRune(10)
 				}
 			}
 		}
