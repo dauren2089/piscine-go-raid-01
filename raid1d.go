@@ -8,16 +8,16 @@ func Raid1d(x, y int) {
 	if x > 0 && y > 0 {
 		if 0 < y && y < 3 {
 			for j := 0; j < y; j++ {
-				ThirdExample(x, y)
+				FourthExample(x, y)
 				z01.PrintRune(10)
 			}
 		} else {
 			for j := 1; j <= y; j++ {
 				if j == 1 || j == y {
-					ThirdCheckLastOrFirstY(x, j)
+					FourthCheckLastOrFirstY(x, j)
 					z01.PrintRune(10)
 				} else {
-					ThirdCheckY(x)
+					FourthCheckY(x)
 					z01.PrintRune(10)
 				}
 			}
@@ -25,7 +25,7 @@ func Raid1d(x, y int) {
 	}
 }
 
-func ThirdExample(x, y int) {
+func FourthExample(x, y int) {
 	if 0 < x && x < 3 {
 		for i := 0; i < x; i++ {
 			z01.PrintRune(65)
@@ -41,7 +41,7 @@ func ThirdExample(x, y int) {
 
 				z01.PrintRune(47)
 			} else if i == x {
-				z01.PrintRune(65)
+				z01.PrintRune(67)
 			} else {
 				z01.PrintRune(66)
 			}
@@ -50,7 +50,7 @@ func ThirdExample(x, y int) {
 
 }
 
-func ThirdCheckY(x int) {
+func FourthCheckY(x int) {
 
 	for i := 1; i <= x; i++ {
 		if i == 1 || i == x {
@@ -61,17 +61,17 @@ func ThirdCheckY(x int) {
 	}
 }
 
-func ThirdCheckLastOrFirstY(x, y int) {
+func FourthCheckLastOrFirstY(x, y int) {
 
 	for i := 1; i <= x; i++ {
 		if i == 1 && y != 1 {
 			z01.PrintRune(67)
 		} else if i == x && y != 1 {
-			z01.PrintRune(67)
+			z01.PrintRune(65)
 		} else if i == 1 && y == 1 {
 			z01.PrintRune(65)
 		} else if i == x && y == 1 {
-			z01.PrintRune(65)
+			z01.PrintRune(67)
 		} else {
 			z01.PrintRune(66)
 		}
