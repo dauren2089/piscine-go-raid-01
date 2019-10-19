@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	student.Raid1a(5, 4)
+	student.Raid1b(2, 2)
 }
