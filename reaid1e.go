@@ -4,7 +4,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func Raid1d(x, y int) {
+func Raid1e(x, y int) {
 	if x > 0 && y > 0 {
 		if 0 < y && y < 3 {
 			for j := 0; j < y; j++ {
