@@ -65,7 +65,7 @@ func FourthCheckLastOrFirstY(x, y int) {
 
 	for i := 1; i <= x; i++ {
 		if i == 1 && y != 1 {
-			z01.PrintRune(67)
+			z01.PrintRune(65)
 		} else if i == x && y != 1 {
 			z01.PrintRune(65)
 		} else if i == 1 && y == 1 {
