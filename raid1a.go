@@ -17,7 +17,6 @@ func Raid1a(x, y int) {
 					Example(x)
 					z01.PrintRune(10)
 				} else {
-					z01.PrintRune(10)
 					CheckY(x)
 				}
 			}
