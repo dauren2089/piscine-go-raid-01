@@ -10,8 +10,6 @@ func Raid1a(x, y int) {
 			for j := 0; j < y; j++ {
 				z01.PrintRune(10)
 				Example(x)
-				z01.PrintRune(10)
-				z01.PrintRune(10)
 			}
 		} else {
 			for j := 1; j <= y; j++ {
@@ -21,9 +19,7 @@ func Raid1a(x, y int) {
 					z01.PrintRune(10)
 				} else {
 					z01.PrintRune(10)
-					z01.PrintRune(10)
 					CheckY(x)
-					z01.PrintRune(10)
 					z01.PrintRune(10)
 				}
 			}
